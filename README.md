@@ -20,6 +20,10 @@ Vault setup
 ```
 * creating the token
 ```
-    vault token create -policy=template
+    vault token create -policy=template -ttl="24h" -orphan
+```
+* export token for use by caonsul-template
+```
+    export VAULT_TOKEN=...
 ```
 * add it to the **consul-temp.hcl** file

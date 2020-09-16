@@ -6,7 +6,7 @@ vault {
   address      = "http://0.0.0.0:1234/"
 
   # This value can also be specified via the environment variable VAULT_TOKEN.
-  token        = "s.dyKwsfaiQrxrs7s1ZhiMK1J1"
+  #token        = "s.37eWUdW6Zcefvo6deQdaBc4l"
 
   # This should also be less than or around 1/3 of your TTL for a predictable
   # behaviour. Consult https://github.com/hashicorp/vault/issues/3414
